@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semánticas y de Formato de texto 2 </title>
+    <meta name="author" content="Ruben Vazquez Rivera">
+</head>
+<body>
+    <h1>COMO CITAR SEMANTICAS CON HTML</h1>
+    <!--citas cortas-->
+    <p>Como dijo un sabio: "Yo solo se que no se nada" - Sabio</p>
+    <p>Como dijo un sabia:<q> Yo solo se que no se nada </q> - Sabio</p>
+    <!-- citas largas -->
+     <p>Como dijo un sabio</p>
+     <blockquote>
+        Loren ipsun dolor sit anet consectetor, adipisicing elit
+     </blockquote>
+     <p>y otro dijo</p>
+     <blockquote>
+        Loren ipson dolor sit anem consectetor adipisicing elit
+     </blockquote>
+     <hr>
+     <h2>Salto de linea y reglas horizontales</h2>
+
+     <p>Este es el primer parrafo <br> <br>
+        Este es el segundo parrafo <br> <br>
+        Este es el tercer parrafo
+    </p>
+
+    <hr>
+
+    <h2>Visualizacion y Formato de Código</h2>
+    <p> Cuando nosotros implementamos print("Hola mundo") en python, la salida en consola será: <code>Hola Mundo</code></p>
+    
+    <h3>Visualizacion de codigo en varias lineas</h3>
+    <p>Este progrma suma 2 numeros en python</p>
+    <pre>
+        #suma de dos numeros
+        a=5
+        b=6
+        print (a+b)
+
+    </pre>
+    <p>este codigo imprime un hola mundo en HTML</p>
+    <pre>
+    <p> Este codigo imprime un hola mundo en HTML</p>
+    <!-- Para escribir caracteres especiales como <> se utilizan
+    las entidades HTML que permitan avisar al
+    navegador que vamos a utilizar un simbolo especial -->
+
+    &lt;body &gt;
+        &lt;h1 &gt;Hola Mundo &lt;/h1 &gt;
+    &lt;/body &gt;
+        
+    </pre>
+
+    <hr>
+    <p>
+        Para representr la entrada de teclado (teclas)
+        se utiliza la etiqueta <code>&lt;kbd&gt;&lt;/kbd&gt;</code> 
+    </p>
+
+    <p>
+        Para copiar el texto de un archivo, utilizamos
+        la combinacion de teclas <kbd>CTRL</kbd>+<kbd>C</kbd>
+    </p>
+</body>
+</html>
