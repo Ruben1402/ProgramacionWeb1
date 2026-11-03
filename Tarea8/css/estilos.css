@@ -1,0 +1,19 @@
+h2{
+    color: rgb(248, 33, 69);
+}
+/* Estilo para un selector de una clase*/
+.color-h2{
+    color:blueviolet;
+}
+/*Estilos para un selector de un identificador*/
+#color-h1{
+    color:darkcyan
+}
+
+.color-estilosinternos{
+    color:gray;
+}
+
+#bg-header{
+    background-color: black;
+}
